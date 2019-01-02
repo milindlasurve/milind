@@ -16,6 +16,6 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: script/afterinstall
+    - location: scripts/afterinstall
       runas: root
 
