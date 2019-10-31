@@ -2,3 +2,8 @@ https://zoom.us/j/827798342?pwd=UXBFVjY5cjF3VjBsVkp1dlZ0VTZydz09
 
 Meeting ID: 827 798 342
 Password: 047874
+
+
+
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 2049 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 111 -j ACCEPT
