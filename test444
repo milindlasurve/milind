@@ -3,6 +3,7 @@ https://zoom.us/j/827798342?pwd=UXBFVjY5cjF3VjBsVkp1dlZ0VTZydz09
 Meeting ID: 827 798 342
 Password: 047874
 
+  nohup sudo docker run -t --net=host -e LICENSE=accept -v $(pwd):/installer/cluster:z -v /var/run:/var/run:z --security-opt label:disable ibmcom/icp-inception-amd64:3.2.0.1906-rhel-ee install-with-openshift -vvv | tee install1.log > /tmp/install-with-openshift1.txt &
 
 
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 2049 -j ACCEPT
