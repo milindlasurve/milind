@@ -1,6 +1,8 @@
 52.117.58.199
 VYgMUv6y
 
+kubectl -n default port-forward svc/docker-registry 5000:5000
+
 
 
 https://zoom.us/j/827798342?pwd=UXBFVjY5cjF3VjBsVkp1dlZ0VTZydz09
