@@ -7,3 +7,20 @@ Password: 047874
 
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 2049 -j ACCEPT
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 111 -j ACCEPT
+
+
+Kindly find the below details.
+
+ 
+
+ocpcluster-bastion
+URL :-  https://bastiondnstobdgtpinag74.centralindia.cloudapp.azure.com
+Private IP :- 10.1.0.4
+Public IP :- 52.172.208.63
+ 
+
+ocpcluster-master01, ocpcluster-master02, ocpcluster-master03
+URL :- https:// masterdnsmgeq24wb2b6pe.centralindia.cloudapp.azure.com
+Private IP :- 10.1.0.5
+Public IP :- 52.172.180.131
+ 
